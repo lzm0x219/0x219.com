@@ -8,7 +8,7 @@ specifiers:
   '@typescript-eslint/eslint-plugin': 5.40.0
   '@typescript-eslint/parser': 5.40.0
   eslint: 8.25.0
-  eslint-plugin-qwik: 0.10.0
+  eslint-plugin-qwik: 0.11.0
   husky: 8.0.1
   lint-staged: 13.0.3
   node-fetch: 3.2.10
@@ -27,7 +27,7 @@ devDependencies:
   '@typescript-eslint/eslint-plugin': 5.40.0_25sstg4uu2sk4pm7xcyzuov7xq
   '@typescript-eslint/parser': 5.40.0_z4bbprzjrhnsfa24uvmcbu7f5q
   eslint: 8.25.0
-  eslint-plugin-qwik: 0.10.0_eslint@8.25.0
+  eslint-plugin-qwik: 0.11.0_eslint@8.25.0
   husky: 8.0.1
   lint-staged: 13.0.3
   node-fetch: 3.2.10
@@ -857,8 +857,8 @@ packages:
     engines: {node: '>=10'}
     dev: true
 
-  /eslint-plugin-qwik/0.10.0_eslint@8.25.0:
-    resolution: {integrity: sha512-GY0SCAXRKawl7W7aryRC+EHafOOJEmrYTXgTsn5CYxiotyIKyN5waF06xgBFCNVa7hHkLSJbs5xAle31tECAtQ==}
+  /eslint-plugin-qwik/0.11.0_eslint@8.25.0:
+    resolution: {integrity: sha512-vi0kmPiG3+3y+XG5l5oxsX2Krf7gVtDNI5AUYPqa/CxEE35oNxJRZxe+BmnbID64UqojoD0xyY7jqP8QJfh29Q==}
     engines: {node: '>=16'}
     peerDependencies:
       eslint: '>= 8'
