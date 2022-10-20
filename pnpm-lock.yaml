@@ -17,13 +17,13 @@ specifiers:
   sort-package-json: 2.0.0
   typescript: 4.8.4
   vite: 3.1.8
-  vite-tsconfig-paths: 3.5.1
+  vite-tsconfig-paths: 3.5.2
 
 devDependencies:
   '@builder.io/qwik': 0.11.1
   '@builder.io/qwik-city': 0.0.112
   '@types/eslint': 8.4.7
-  '@types/node': 18.11.2
+  '@types/node': 18.11.3
   '@typescript-eslint/eslint-plugin': 5.40.1_ukgdydjtebaxmxfqp5v5ulh64y
   '@typescript-eslint/parser': 5.40.1_z4bbprzjrhnsfa24uvmcbu7f5q
   eslint: 8.25.0
@@ -36,7 +36,7 @@ devDependencies:
   sort-package-json: 2.0.0
   typescript: 4.8.4
   vite: 3.1.8
-  vite-tsconfig-paths: 3.5.1_vite@3.1.8
+  vite-tsconfig-paths: 3.5.2_vite@3.1.8
 
 packages:
 
@@ -194,7 +194,7 @@ packages:
     resolution: {integrity: sha512-ZUxbzKl0IfJILTS6t7ip5fQQM/J3TJYubDm3nMbgubNNYS62eXeUpoLUC8/7fJNiFYHTrGPQn7hspDUzIHX3UA==}
     dependencies:
       '@types/minimatch': 5.1.2
-      '@types/node': 18.11.2
+      '@types/node': 18.11.3
     dev: true
 
   /@types/hast/2.3.4:
@@ -225,8 +225,8 @@ packages:
     resolution: {integrity: sha512-iiUgKzV9AuaEkZqkOLDIvlQiL6ltuZd9tGcW3gwpnX8JbuiuhFlEGmmFXEXkN50Cvq7Os88IY2v0dkDqXYWVgA==}
     dev: true
 
-  /@types/node/18.11.2:
-    resolution: {integrity: sha512-BWN3M23gLO2jVG8g/XHIRFWiiV4/GckeFIqbU/C4V3xpoBBWSMk4OZomouN0wCkfQFPqgZikyLr7DOYDysIkkw==}
+  /@types/node/18.11.3:
+    resolution: {integrity: sha512-fNjDQzzOsZeKZu5NATgXUPsaFaTxeRgFXoosrHivTl8RGeV733OLawXsGfEk9a8/tySyZUyiZ6E8LcjPFZ2y1A==}
     dev: true
 
   /@types/semver/7.3.12:
@@ -2612,8 +2612,8 @@ packages:
       vfile-message: 3.1.2
     dev: true
 
-  /vite-tsconfig-paths/3.5.1_vite@3.1.8:
-    resolution: {integrity: sha512-t7cPvDMDxOCUxxNLqngXiX+L6jPYBr+eMgkeVadknxBb89d2s1aejz+wFEep010VfXjGVAUWGEFPe1fkRYTFvg==}
+  /vite-tsconfig-paths/3.5.2_vite@3.1.8:
+    resolution: {integrity: sha512-xJMgHA2oJ28QCG2f+hXrcqzo7IttrSRK4A//Tp94CfuX5eetOx33qiwXHUdi3FwkHP2ocpxHuvE45Ix67gwEmQ==}
     peerDependencies:
       vite: '>2.0.0-0'
     dependencies:
