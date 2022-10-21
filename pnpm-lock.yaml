@@ -2,7 +2,7 @@ lockfileVersion: 5.4
 
 specifiers:
   '@builder.io/qwik': 0.11.1
-  '@builder.io/qwik-city': 0.0.113
+  '@builder.io/qwik-city': 0.0.117
   '@types/eslint': 8.4.7
   '@types/node': latest
   '@typescript-eslint/eslint-plugin': 5.40.1
@@ -21,7 +21,7 @@ specifiers:
 
 devDependencies:
   '@builder.io/qwik': 0.11.1
-  '@builder.io/qwik-city': 0.0.113
+  '@builder.io/qwik-city': 0.0.117
   '@types/eslint': 8.4.7
   '@types/node': 18.11.3
   '@typescript-eslint/eslint-plugin': 5.40.1_ukgdydjtebaxmxfqp5v5ulh64y
@@ -40,8 +40,8 @@ devDependencies:
 
 packages:
 
-  /@builder.io/qwik-city/0.0.113:
-    resolution: {integrity: sha512-0zMYVFSy7dD0oKzeEs7kNKrIiCos4er1dmM46stdbqwDfuxBhTnKrtkN8vZFKzT+uCu0L3/e1zgeRnJALIUeTA==}
+  /@builder.io/qwik-city/0.0.117:
+    resolution: {integrity: sha512-9jmwudywXd8jjopzmz41OYD0qMendy+SyrATBqtBVL3nBXxt7MxjBvjGrY0IKEF6G+U9xSfLRObfGNByijoe8A==}
     dependencies:
       '@mdx-js/mdx': 2.1.5
       '@types/mdx': 2.0.3
