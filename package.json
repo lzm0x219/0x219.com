@@ -1,0 +1,40 @@
+{
+  "name": "0x219.com",
+  "description": "💎 My digital garden, all-inclusive, peace and love.",
+  "scripts": {
+    "build": "turbo run build",
+    "dev": "turbo run dev --parallel",
+    "dev:admin": "turbo run dev --filter @0x219/admin",
+    "dev:mini": "turbo run dev --filter @0x219/mini",
+    "dev:server": "turbo run dev --filter @0x219/server",
+    "dev:site": "turbo run dev --filter @0x219/site",
+    "preinstall": "npx only-allow pnpm",
+    "prepare": "is-ci || husky install"
+  },
+  "lint-staged": {
+    "*.{js,cjs,ts,tsx}": [
+      "prettier --write",
+      "eslint"
+    ],
+    "*.{md,html,css,json}": "prettier --write",
+    "!(*pnpm-lock).yaml": "prettier --write"
+  },
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "5.40.1",
+    "@typescript-eslint/parser": "5.40.1",
+    "eslint": "8.25.0",
+    "eslint-config-prettier": "8.5.0",
+    "eslint-plugin-prettier": "4.2.1",
+    "eslint-plugin-react": "7.31.10",
+    "eslint-plugin-react-hooks": "4.6.0",
+    "husky": "8.0.1",
+    "is-ci": "3.0.1",
+    "lint-staged": "13.0.3",
+    "prettier": "2.7.1",
+    "prettier-plugin-packagejson": "2.3.0",
+    "prettier-plugin-tailwindcss": "0.1.13",
+    "sort-package-json": "2.0.0",
+    "turbo": "1.5.6",
+    "typescript": "4.8.4"
+  }
+}
