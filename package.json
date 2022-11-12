@@ -3,11 +3,14 @@
   "description": "💎 My digital garden, all-inclusive, peace and love.",
   "scripts": {
     "build": "turbo run build",
+    "build:admin": "turbo run build --filter @0x219/admin...",
+    "build:server": "turbo run build --filter @0x219/server...",
+    "build:site": "turbo run build --filter @0x219/site...",
     "dev": "turbo run dev --parallel",
-    "dev:admin": "turbo run dev --filter @0x219/admin",
-    "dev:mini": "turbo run dev --filter @0x219/mini",
-    "dev:server": "turbo run dev --filter @0x219/server",
-    "dev:site": "turbo run dev --filter @0x219/site",
+    "dev:admin": "turbo run dev --filter @0x219/admin...",
+    "dev:mini": "turbo run dev --filter @0x219/mini...",
+    "dev:server": "turbo run dev --filter @0x219/server...",
+    "dev:site": "turbo run dev --filter @0x219/site...",
     "preinstall": "npx only-allow pnpm",
     "prepare": "is-ci || husky install"
   },
@@ -16,7 +19,7 @@
       "prettier --write",
       "eslint"
     ],
-    "*.{md,html,css,json}": "prettier --write",
+    "*.{md,html,css,json,yml}": "prettier --write",
     "!(*pnpm-lock).yaml": "prettier --write"
   },
   "devDependencies": {
@@ -33,6 +36,7 @@
     "prettier": "2.7.1",
     "prettier-plugin-packagejson": "2.3.0",
     "prettier-plugin-tailwindcss": "0.1.13",
+    "process": "0.11.10",
     "sort-package-json": "2.1.0",
     "turbo": "1.6.3",
     "typescript": "4.8.4"
