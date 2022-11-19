@@ -7,7 +7,7 @@
   "scripts": {
     "build": "tsc --noEmit && parcel build",
     "build:report": "parcel build --reporter @parcel/reporter-bundle-analyzer",
-    "dev": "parcel --port 4900 --cert ../../certs/localhost.cert --key ../../certs/localhost.key",
+    "dev": "parcel --port 4900 --cache-dir ./.parcel-cache --cert ../../certs/localhost.cert --key ../../certs/localhost.key",
     "preview": "http-server dist --port 4901 -S --cert ../../certs/localhost.cert --key ../../certs/localhost.key",
     "start": "pnpm serve"
   },
