@@ -4,6 +4,7 @@ import App from "@/App";
 import DashboardLayout from "@/layouts/DashboardLayout";
 
 const Index = lazy(() => import("@/routes/index"));
+const Test = lazy(() => import("@/routes/test"));
 const UserLogin = lazy(() => import("@/routes/user.login"));
 
 const routes: RouteObject[] = [
@@ -29,6 +30,14 @@ const routes: RouteObject[] = [
         element: (
           <Suspense>
             <UserLogin />
+          </Suspense>
+        ),
+      },
+      {
+        path: "/test",
+        element: (
+          <Suspense>
+            <Test />
           </Suspense>
         ),
       },

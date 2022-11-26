@@ -1,0 +1,15 @@
+.ant-input {
+  background-color: #eee;
+  border: 0;
+}
+
+.ant-input:not(:focus-visible) {
+  background-color: rgba(238, 238, 238, 0.4);
+  box-shadow: none;
+}
+
+/* Input Group */
+.ant-input-group .ant-input-group-addon {
+  border: 0;
+  background-color: #eee;
+}

@@ -1,0 +1,18 @@
+:root {
+  /* Button */
+  --button-color-bg-default: #eee;
+}
+
+.ant-btn {
+  border-radius: 4px;
+  box-shadow: none;
+}
+
+.ant-btn-default {
+  background-color: var(--button-color-bg-default);
+  border: 0;
+}
+
+.ant-btn-primary {
+  background-color: var(--color-primary);
+}
